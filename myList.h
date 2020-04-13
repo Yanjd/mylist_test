@@ -1,8 +1,11 @@
-#include<stdlib.h>
-#include<iostream>
+#ifndef _MYLIST_
+#define _MYLIST_
+
+//#include<stdlib.h>
+//#include<iostream>
 
 
-using namespace std;
+//using namespace std;
 
 template<typename T>
 class DCLink;
@@ -116,3 +119,6 @@ void DCLink<T>::clear()noexcept{
     }
     
 }
+
+
+#endif
